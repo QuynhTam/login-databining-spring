@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="vi">
+<head>
+    <head>
+        <title>Login</title>
+    </head>
+<body>
+<h3>Home</h3>
+<form action="login" method="post" modelAttribute="login">
+    <fieldset>
+        <legend>Login</legend>
+        <table>
+            <tr>
+                <td><label>Account:</label></td>
+                <td><input type="text" name="account"/></td>
+            </tr>
+            <tr>
+                <td><label >Password:</label></td>
+                <td><input type="password" name="password"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Login</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
